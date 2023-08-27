@@ -1,2 +1,2 @@
-# Modelling-Data
-Various models in data and uses
+# Modelling Data
+Bagging data
