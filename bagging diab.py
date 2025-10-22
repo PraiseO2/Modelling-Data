@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug  2 13:14:28 2023
-
-@author: CEO
-"""
-
-
+#Import packages
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -35,6 +29,7 @@ bag_model = BaggingClassifier(base_estimator=DecisionTreeClassifier(), n_estimat
 bag_model.fit(X_train, y_train)
 score = bag_model.oob_score_
 scoreb = bag_model.score(X_test, y_test)
+
 
 
 
